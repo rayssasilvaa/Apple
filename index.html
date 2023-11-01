@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon">
+    <title>Apple</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <ul>
+                <li class="nav-logo"><a href="https://apple.com" target="_blank"><img src="assets/logo.svg" alt="logo apple"></a></li>
+                <li class="nav-item">Loja</li>
+                <li class="nav-item">Mac</li>
+                <li class="nav-item">iPad</li>
+                <li class="nav-item">iPhone</li>
+                <li class="nav-item">Watch</li>
+                <li class="nav-item">Airpods</li>
+                <li class="nav-item">TV & Casa</li>
+                <li class="nav-item">Entretenimento</li>
+                <li class="nav-item">Acessórios</li>
+                <li class="nav-item">Suporte</li>
+                <button class="nav-icon"><a href="https://apple.com" target="_blank"><img src="assets/search-icon.svg" alt="icone de pesquisa" ></a></button>
+                <button class="nav-icon"><a href="https://apple.com" target="_blank"><img src="assets/cart-icon.svg" alt="icone de sacola"></a></button>
+            </ul>
+        </nav>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img src="assets/menu_white_36dp.svg"  class="icon"></button>
+        </div>
+
+        <div class="mobile-menu">
+            <ul>
+                <li>Loja</li>
+                <li>Mac</li>
+                <li>iPad</li>
+                <li>iPhone</li>
+                <li>Watch</li>
+                <li>Airpods</li>
+                <li>TV & Casa</li>
+                <li>Entretenimento</li>
+                <li>Acessórios</li>
+                <li>Suporte</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="main-section">
+            <div class="main-text">
+                <h1>Evento Apple</h1>
+                <h2>A partir do dia 25 a 28 de novembro <br> ganhe um Gift Card da Apple ao comprar um produto.</h2>
+                <a href="#">Ver mais</a>
+            </div>
+            <img src="assets/shopping-event.png">
+        </section>
+
+        <section class="spirited-section">
+                <div class="spirited-p">
+                    <p>Will Ferrell</p>
+                    <p>Ryan Reynolds</p>
+                </div>
+                <img src="assets/spirited-background.png">
+                <div>
+                    <p>uma nova comédia musical baseada em um clássico natalino.</p>
+                    <span>Assista Agora</span>
+                </div>
+        </section>
+
+        <section class="iphone-section">
+            <div class="main-text">
+                <div class="text-iphone">
+                    <h2>iPhone 14</h2>
+                    <p>grande e maior.</p>
+                </div>
+                <div class="link-iphone">
+                    <a href="#">Saiba mais</a>
+                    <a href="#">Comprar</a>
+                </div>
+            </div>
+            <img src="assets/iphones.png">
+        </section>
+        <section>
+            <div class="iphone">>
+                <h2>O seu iPhone do seu jeito</h2>
+                <a href="#">Comprar</a>
+                <input type="radio" name="tema" id="deep-purple" checked="checked">
+                <input type="radio" name="tema" id="gold">
+                <input type="radio" name="tema" id= "space-black">
+                <input type="radio" name="tema" id="silver">
+                
+                <div class="phone">
+                    <div class="buttons">
+            
+                        <div class="left">
+                            <div class="button"></div>
+                            <div class="button"></div>
+                            <div class="button"></div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="button"></div>
+                        </div>
+                    </div>
+            
+                    <div class="camera"></div>
+                    <div class="screen-container">
+                        <div class="bg">
+                            <div class="deep-purple">
+                                <div class="section">
+                                    <div class="glow"></div>
+                                </div>
+                                <div class="section">
+                                    <div class="glow"></div>
+                                </div>
+                            </div>
+            
+                            <div class="gold">
+                                <div class="section">
+                                    <div class="glow"></div>
+                                </div>
+                                <div class="section">
+                                    <div class="glow"></div>
+                                </div>
+                            </div>
+            
+                            <div class="space-black">
+                                <div class="section">
+                                    <div class="glow"></div>
+                                </div>
+                                <div class="section">
+                                    <div class="glow"></div>
+                                </div>
+                            </div>
+            
+                            <div class="silver">
+                                <div class="section">
+                                    <div class="glow"></div>
+                                </div>
+                                <div class="section">
+                                    <div class="glow"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                  <div class="notch-container" tabindex="0">
+                        <div class="notch">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="notch-blur"></div>
+                </div>
+            
+                <div class="paleta">
+                    <label for="deep-purple" class="swatch"></label>
+                    <label for="gold" class="swatch"></label>
+                    <label for="space-black" class="swatch"></label>
+                    <label for="silver" class="swatch"></label>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
