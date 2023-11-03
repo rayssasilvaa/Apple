@@ -745,14 +745,14 @@ input[type=radio]{
     }
     main .iphone-section h2{
         font-size: 30px;
-        transform: translateY(-100%);
+        transform: translateY(-109%);
     }
     main .iphone-section p{
         font-size: 20px;
-        margin-top: -100px;
+        margin-top: -110px;
     }
     main .iphone-section a{
-        margin-top: 73%;
+        margin-top: -16%;
         font-size: 16px;
     }
     .iphone h2{
